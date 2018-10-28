@@ -29,7 +29,6 @@ bot.on('guildMemberAdd', member => {
   .setColor(3447003)
   .setTimestamp()
   .setDescription('')
-  .setImage(`http://clawbot.tk/img/hg.png`)
   return message.channel.sendEmbed(sunucubilgi);
 });
 
