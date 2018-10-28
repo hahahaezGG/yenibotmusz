@@ -20,11 +20,11 @@ exports.run = function(client, message, args) {
     limit: messagecount
   }).then(messages => message.channel.bulkDelete(messages));
     const sohbetsilindi = new Discord.RichEmbed()
-    .setTitle("Sohbet Temizleme")
     .setColor(0xD97634)
     .setTimestamp()
+    .addField('', 'Sohbet Temizleme')
     .addField('Yetkili:', message.author.username)
-	.addField('Silinen Mesaj:', `message.member`
+	.addField('Silinen:', `message.member`
     return message.channel.sendEmbed(sohbetsilindi);
     console.log("Sohbet " + message.member + " tarafından silindi!");
 };
