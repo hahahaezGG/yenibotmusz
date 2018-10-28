@@ -14,7 +14,7 @@ const log = message => {
 };
 
 client.on("ready", () => {
-  client.user.setGame(prefix + "yardım | SVO TR | 7-24 ") 
+  client.user.setGame(prefix + "yardım | xRaZ | 7-24 ") 
   console.log("Bağlandım!")   
 });
 
