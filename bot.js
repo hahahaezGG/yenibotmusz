@@ -19,8 +19,6 @@ client.on("ready", () => {
 });
 
 
-});
-
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 fs.readdir('./komutlar/', (err, files) => {
