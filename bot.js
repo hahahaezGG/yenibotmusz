@@ -14,7 +14,7 @@ const log = message => {
 };
 
 client.on("ready", () => {
-  client.user.setGame(prefix + "Aslanlar Gibi Critical Ops ") 
+  client.user.setGame(prefix + "Aslanlar Gibi Critical Ops 🔥 ") 
   console.log("Bağlandım!")   
 });
 
