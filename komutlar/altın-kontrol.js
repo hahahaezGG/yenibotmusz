@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const client = new Discord.Client(s);
+const client = new Discord.Client();
 const sql = require("sqlite");
 sql.open("./altin.sqlite");
 
