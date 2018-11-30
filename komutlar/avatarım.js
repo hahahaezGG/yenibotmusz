@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 exports.run = function(client, message, args) {
 message.channel.sendEmbed(new Discord.RichEmbed()
-.setDescription(`Avatarınız:`)
+.setDescription(`Avatarınız:`qwewqeqwe)
 .setImage(`${message.author.avatarURL} `)
 .setColor(0xf7dc46));
    }
